@@ -26,6 +26,7 @@ class HeroController extends Controller
         $view = view('hero/index');
         
         $heros = Hero::orderBy('name', 'asc')->get();
+        
         $view->heros = $heros;
         
         return $view;
