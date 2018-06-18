@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index')->name('homepage');
+
+Route::get('/hero/{hero}', 'HeroController@show');
 
 Auth::routes();
