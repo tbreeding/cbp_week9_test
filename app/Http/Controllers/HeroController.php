@@ -32,7 +32,7 @@ class HeroController extends Controller
         return $view;
     }
     public function emergency(request $request, $id) {
-        
+        dd($id);
         $newEmergency['hero_id'] = $request['hero_id'];
         $newEmergency['user_id'] = Auth::id();
         $newEmergency['subject'] = $request['subject'];

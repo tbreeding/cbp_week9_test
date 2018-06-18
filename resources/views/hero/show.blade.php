@@ -27,7 +27,7 @@
     <section class="emergency-report">
         <h2>Report an emergency</h2>
 
-        <form action="action('HeroController@emergency" method="post">
+        <form action="" method="post">
 
             <input type="text" name="subject" placeholder="Cause of emergency">
 
