@@ -13,19 +13,19 @@
     <a href="#" class="report">Report an emergency</a>
 
     <div class="heroes">
-        <a href="#">
+        <a href="hero/aquaman">
             <img src="img/aquaman.jpg" alt="">
         </a>
-        <a href="#">
+        <a href="hero/batman">
             <img src="img/batman.jpg" alt="">
         </a>
-        <a href="#">
+        <a href="hero/cyborg">
             <img src="img/cyborg.jpg" alt="">
         </a>
-        <a href="#">
+        <a href="hero/flash">
             <img src="img/flash.jpg" alt="">
         </a>
-        <a href="#">
+        <a href="hero/wonderwoman">
             <img src="img/wonderwoman.jpg" alt="">
         </a>
     </div>
