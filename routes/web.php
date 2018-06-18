@@ -13,6 +13,10 @@
 
 Route::get('/', 'HomeController@index')->name('homepage');
 
-Route::get('/hero/{hero}', 'HeroController@show');
+Route::get('/hero/{hero}', 'HeroController@show')->name('hero/show');
+
+Route::get('/hero', 'HeroController@index')->name('hero/index');
+
+Route::post('/hero/{hero}', 'HeroController@emergency')->name('hero/newEmergency');
 
 Auth::routes();
